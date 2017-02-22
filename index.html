@@ -1,36 +1,78 @@
 <html>
+<head>
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+</head>
 <title>Mi Calculadora</title>
 <body>
-<div class="calculadora"
-<form action="#" name="calculadora" id="calculadora">
-<p id="textoPantalla">0</p>
-<p>
-<input type="button" class="largo" value="CE" />
-<input type="button" class="largo" value="C" />
-</p>
-<p>
-<input type="button" value="7" />
-<input type="button" value="8" />
-<input type="button" value="9" />
-</p>
-<p>
-<input type="button" value="4" />
-<input type="button" value="5" />
-<input type="button" value="6" />
-</p>
-<p>
-<input type="button" value="1" />
-<input type="button" value="2" />
-<input type="button" value="3" />
-<input type="button" value="-" />
-</p>
-<p>
-<input type="button" value="0" />
-<input type="button" value="." />
-<input type="button" value="+" />
-<input type="button" value="="/>
-</p>
-</form>
+<div class="container">
+<div class="row">
+<div class="col-xs-12" >
+<div id="resultado" style="background:#555;color:white;height:30px;border-radius:10px;text-align:right;margin:10px 0px; padding:5px;">
+resultado
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-6">
+<input type="button" class="btn btn-default btn-block" value="CE" />
+</div>
+<div class="col-xs-6">
+<input type="button" class="btn btn-default btn-block" value="C" />
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-4">
+<input type="button" class="btn btn-default btn-block" value="7" />
+</div>
+<div class="col-xs-4">
+<input type="button" class="btn btn-default btn-block" value="8"/>
+</div>
+<div class="col-xs-4">
+<input type="button" class="btn btn-default btn-block" value="9" />
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-4">
+<input type="button" class="btn btn-default btn-block" value="4" />
+</div>
+<div class="col-xs-4">
+<input type="button" class="btn btn-default btn-block" value="5"/>
+</div>
+<div class="col-xs-4">
+<input type="button" class="btn btn-default btn-block" value="6" />
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-4">
+<input type="button" class="btn btn-default btn-block" value="1" />
+</div>
+<div class="col-xs-4">
+<input type="button" class="btn btn-default btn-block" value="2"/>
+</div>
+<div class="col-xs-4">
+<input type="button" class="btn btn-default btn-block" value="3" />
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-3">
+<input type="button" class="btn btn-default btn-block" value="0" />
+</div>
+<div class="col-xs-3">
+<input type="button" class="btn btn-default btn-block" value="="/>
+</div>
+<div class="col-xs-3">
+<input type="button" class="btn btn-default btn-block" value="+" />
+</div>
+<div class="col-xs-3">
+<input type="button" class="btn btn-default btn-block" value="-" />
+</div>
+</div>
+
 </div>
 </body>
 </html>
